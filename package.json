@@ -1,0 +1,20 @@
+{
+  "name": "cs260_creativeproject",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menyx02/cs260_CreativeProject.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/menyx02/cs260_CreativeProject/issues"
+  },
+  "homepage": "https://github.com/menyx02/cs260_CreativeProject#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
