@@ -97,3 +97,31 @@ body {
   box-shadow: 0px 0px 5px #0000007e;
   margin: 40px 0px 0px 0px;
 }
+
+/*Code for examples.html*/
+.journals {
+  margin-top: 70px;
+  display: grid;
+  grid-template: auto/ 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  margin: 0px 220px;
+}
+
+img {
+  width: 95%;
+  height: 95%;
+  display: block;
+  margin: 10px auto;
+}
+
+.text-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.journal-container {
+  display: inline;
+}
+
