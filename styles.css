@@ -325,17 +325,33 @@ input[type=text]:focus, input[type='password']:focus, textarea:focus {
 
 /*#region Blog*/
 
+.bg-off-white {
+  background-color: #EEEEEE;
+}
+
 .container {
   max-width: 992px;
-  border: 1px solid black;
   margin: 0px auto;
 }
 
 .blog-grid {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 1fr 1fr 1fr / 1fr;
   grid-gap: 16px;
   background-color: #EEEEEE;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 450px) {
+  .blog-grid {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .blog-grid {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  }
 }
 
 .mui-card {
@@ -365,10 +381,8 @@ input[type=text]:focus, input[type='password']:focus, textarea:focus {
 }
 
 .mui-card-rich-media {
-  background-image: url("/assets/sunset.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 200px;
+  width:100%;
 }
 
 .mui-card-primary-title {
