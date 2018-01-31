@@ -108,7 +108,7 @@ body {
   margin: 0px 220px;
 }
 
-img {
+.image-container img {
   width: 95%;
   height: 95%;
   display: block;
@@ -150,6 +150,7 @@ img {
   border-radius: 2px;
   box-shadow: 0px 0px 2px #0000007e;
 }
+
 
 .body-examples {
   background-image: url("/assets/examples/background.jpg");
