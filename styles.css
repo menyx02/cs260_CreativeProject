@@ -1,5 +1,6 @@
 body {
   --primary-color: #F15942;
+  --secondary-color: #26628A;
 }
 
 body {
@@ -188,3 +189,105 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*#region Sign Up*/
+
+.outer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/assets/sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  display: 'flex';
+  flex-direction: 'column';
+  font-family: 'Roboto', sans-serif;
+  width: 370px;
+  /* height: 415px; */
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #00000061;
+  border-radius: 2px;
+}
+
+.logo-small {
+  height: 75px;
+  width: 75px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  font-weight: 400;
+  font-size: 16;
+  color: var(--primary-color);
+  margin: 8px 0px;
+}
+
+.button-area {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-between';
+  align-items: 'center';
+}
+
+input[type=text], input[type='password'], textarea {
+  transition: all 0.30s ease-out;
+  -webkit-transition: all 0.30s ease-out;
+  -moz-transition: all 0.30s ease-out;
+  -ms-transition: all 0.30s ease-out;
+  -o-transition: all 0.30s ease-out;
+  outline: none;
+  padding: 8px 6px;
+}
+
+input[type=text]:focus, input[type='password']:focus, textarea:focus {
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.input-field {
+  display: block;
+  border-radius: 2px;
+  padding: 8px 4px;
+  margin: 8px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #9E9E9E;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 8px 0px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 5px #00000061;
+  transition: all 0.30s ease-out;
+  -webkit-transition: all 0.30s ease-out;
+  -moz-transition: all 0.30s ease-out;
+  -ms-transition: all 0.30s ease-out;
+  -o-transition: all 0.30s ease-out;
+}
+
+.button-primary:hover {
+  background-color: rgb(224, 84, 62);
+}
+
+.button-primary:active {
+  box-shadow: none;
+}
+
+/*#endregion#*/
