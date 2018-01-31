@@ -322,3 +322,76 @@ input[type=text]:focus, input[type='password']:focus, textarea:focus {
 }
 
 /*#endregion Footer*/
+
+/*#region Blog*/
+
+.container {
+  max-width: 992px;
+  border: 1px solid black;
+  margin: 0px auto;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 16px;
+  background-color: #EEEEEE;
+}
+
+.mui-card {
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 5px #0000007e;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mui-card-header {
+  padding: 16px;
+  display: flex;
+}
+
+.mui-card-header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mui-card-header-text > span:last-child {
+  margin-top: 4px;
+  color: #9E9E9E;
+}
+
+.mui-card-rich-media {
+  background-image: url("/assets/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.mui-card-primary-title {
+  padding: 24px 16px 16px 16px;
+}
+
+.mui-card-primary-title > h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0px 0px 4px 0px;
+}
+
+.mui-card-primary-title > span {
+  font-size: 14px;
+  margin: 4px 0px 0px 0px;
+}
+
+.mui-author-icon {
+  background-color: #E0E0E0;
+  height: 32px;
+  width: 32px;
+  padding: 8px;
+  border-radius: 24px;
+}
+
+/*#endregion*/
