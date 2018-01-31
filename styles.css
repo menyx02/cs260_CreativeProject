@@ -104,7 +104,7 @@ body {
   display: grid;
   grid-template: auto/ 1fr 1fr 1fr;
   grid-column-gap: 30px;
-  grid-row-gap: 15px;
+  grid-row-gap: 35px;
   margin: 0px 220px;
 }
 
@@ -116,12 +116,44 @@ img {
 }
 
 .text-container {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  background-color: #26628A;
+  color: #fff;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .journal-container {
   display: inline;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px black;
 }
 
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.button-container a {
+  background-color: #F15942;
+  text-decoration: none;
+  padding:  16px 42px;
+  font-size: 1.25em;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #0000007e;
+}
+
+.body-examples {
+  background-image: url("/assets/examples/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px -200px;
+}
