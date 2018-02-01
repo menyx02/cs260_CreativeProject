@@ -19,7 +19,20 @@ body {
 }
 
 .banner h2 {
-  font-size: 2.2em;
+  font-size: 3.5em;
+  font-family: 'Waiting for the Sunrise', cursive;
+  width: 70%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Orienta', sans-serif;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: 'Orienta', sans-serif;
+  font-size: 1.25em;
 }
 
 .banner a {
@@ -48,7 +61,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 50px 150px 50px 0px;
+  padding: 50px 200px 50px 0px;
 }
 
 .text-holder {
@@ -56,7 +69,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 35px;
+  padding: 0px 35px;
+}
+
+.text-holder p {
+  width: 50%;
 }
 
 .feature-image-2 {
@@ -64,7 +81,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 200px;
 }
 
 .text-holder-2 {
@@ -73,7 +90,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding: 0px 50px 0px 0px;
+  padding: 0px 35px 0px 0px;
+}
+
+.text-holder-2 p {
+  width: 50%;
 }
 
 .review {
@@ -85,12 +106,14 @@ body {
   align-items: center;
   font-size: 25px;
   color: #D9F1FA;
+  font-size: 2em;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
 .review a {
   background-color: var(--primary-color);
   padding: 16px 42px;
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   color: #fff;
   border-radius: 2px;
@@ -132,7 +155,7 @@ body {
   display: inline;
   border-radius: 2px;
   box-shadow: 0px 0px 5px black;
-  background-color: lightgray;
+  background-color: lightcyan;
 }
 
 .button-container {
