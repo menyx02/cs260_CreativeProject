@@ -141,21 +141,29 @@ p {
 .text-container {
   background-color: #26628A;
   color: #fff;
-  height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 8px 0px 8px 0px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.line-1 {
+  margin: 7px 0px;
+  font-size: 20px;
+  font-family: 'Orienta', sans-serif;
+}
+
+.line-2 {
+  margin: -4px 0px 7px 0px;
+  font-size: 15px;
+  font-family: 'Orienta', sans-serif;
 }
 
 .journal-container {
   display: inline;
   border-radius: 2px;
   box-shadow: 0px 0px 5px black;
-  background-color: lightcyan;
+  background-color: #F1F1F2;
 }
 
 .button-container {
@@ -179,5 +187,4 @@ p {
   background-image: url("/assets/examples/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0px -200px;
 }
