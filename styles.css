@@ -11,6 +11,57 @@ body {
   padding-bottom: 40px;
 }
 
+/*#region Navbar*/
+
+nav {
+  background-color: var(--secondary-color);
+}
+
+.buffered {
+  margin-bottom: 16px;
+}
+
+.nav-bar {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-logo {
+  display: flex;
+}
+
+.nav-logo-img {
+  background-color: #E0E0E0;
+  height: 24px;
+  width: 24px;
+  padding: 6px;
+  border-radius: 24px;
+  margin: 0px 8px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a:first-child {
+  flex: 4;
+  padding: 8px 16px;
+  justify-content: flex-start;
+}
+
+nav a:last-child {
+  flex: 0 0 56px;
+  padding: 8px 16px;
+  margin: 8px 16px;
+}
+
+/*#endregion Navbar*/
+
 .banner {
   background-image: url("assets/sunset.jpg");
   height: 800px;
