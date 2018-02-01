@@ -7,6 +7,10 @@ body {
   margin: 0px;
 }
 
+.footer-adjust {
+  padding-bottom: 40px;
+}
+
 .banner {
   background-image: url("assets/sunset.jpg");
   height: 800px;
