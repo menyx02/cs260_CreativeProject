@@ -55,7 +55,7 @@ nav a:first-child {
 }
 
 nav a:last-child {
-  flex: 0 0 56px;
+  flex: 0 0 60px;
   padding: 8px 16px;
   margin: 8px 16px;
 }
@@ -147,6 +147,7 @@ p {
   justify-content: center;
   align-items: flex-end;
   padding: 0px 35px 0px 0px;
+  text-align: right;
 }
 
 .text-holder-2 p {
@@ -164,6 +165,8 @@ p {
   color: #D9F1FA;
   font-size: 2em;
   font-family: 'Waiting for the Sunrise', cursive;
+  padding: 32px;
+  text-align: center;
 }
 
 .review a {
